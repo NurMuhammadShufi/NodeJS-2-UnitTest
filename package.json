@@ -7,6 +7,11 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "author": "Shufi",
   "license": "ISC",
   "devDependencies": {
