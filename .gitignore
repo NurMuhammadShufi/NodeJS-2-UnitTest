@@ -1,1 +1,6 @@
+# ignore folder
 /node_modules
+
+# ignore file
+jsconfig.json
+note.txt
