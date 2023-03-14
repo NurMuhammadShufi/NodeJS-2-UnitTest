@@ -5,9 +5,11 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "jest": {
+    "verbose": true,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }

@@ -1,5 +1,6 @@
 # ignore folder
 /node_modules
+/coverage
 
 # ignore file
 jsconfig.json
